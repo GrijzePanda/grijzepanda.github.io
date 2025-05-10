@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'CedarvilleCursive';
+  src: url('fonts/CedarvilleCursive-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Courier New', 'Lucida Console', 'Monaco', monospace;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/bg.png");
+  color: #FFB000;
+}
+
+header {
+  background: #FFCC00;
+  color: #000000;
+  padding: 10px 0;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin-left: 100px;
+  width: 85%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.hello-title {
+  font-family: CedarvilleCursive;
+  font-size: 48px
+}
+
+.about-text {
+  flex: 1;
+}
+
+.picture {
+  width: 200px;
+  height: auto;
+  border-radius: 25%;
+  margin-left: 150px;
+}
+
+.motivate {
+  font-size: 28px;
+}
+
+.smol {
+  font-size: 11px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #000000;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
